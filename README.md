@@ -44,6 +44,8 @@ pod "PKCustomAlertView"
     }];
 ```
 ![alt tag](http://s28.postimg.org/xyf6sev7h/Simulator_Screen_Shot_Oct_16_2015_2_51_45_PM.png)
+![alt tag](http://s17.postimg.org/6kb17s65b/Simulator_Screen_Shot_Oct_16_2015_3_12_19_PM.png)
+![alt tag](http://s17.postimg.org/aj88qlusf/Simulator_Screen_Shot_Oct_16_2015_3_13_40_PM.png)
 ![alt tag](http://s17.postimg.org/du1748a3j/Simulator_Screen_Shot_Oct_16_2015_3_40_32_PM.png)
 
 ## Author
