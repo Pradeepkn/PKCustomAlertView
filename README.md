@@ -20,6 +20,7 @@ it, simply add the following line to your Podfile:
 pod "PKCustomAlertView"
 ```
 ![alt tag](http://s28.postimg.org/xyf6sev7h/Simulator_Screen_Shot_Oct_16_2015_2_51_45_PM.png)
+![alt tag](http://s17.postimg.org/du1748a3j/Simulator_Screen_Shot_Oct_16_2015_3_40_32_PM.png)
 
 ## Author
 
