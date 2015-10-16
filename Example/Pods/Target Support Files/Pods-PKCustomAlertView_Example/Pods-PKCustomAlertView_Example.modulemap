@@ -1,0 +1,6 @@
+framework module Pods_PKCustomAlertView_Example {
+  umbrella header "Pods-PKCustomAlertView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

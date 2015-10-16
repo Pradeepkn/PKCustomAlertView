@@ -1,0 +1,6 @@
+framework module Pods_PKCustomAlertView_Tests {
+  umbrella header "Pods-PKCustomAlertView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

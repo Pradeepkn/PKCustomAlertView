@@ -1,0 +1,14 @@
+PODS:
+  - PKCustomAlertView (0.1.0)
+
+DEPENDENCIES:
+  - PKCustomAlertView (from `../`)
+
+EXTERNAL SOURCES:
+  PKCustomAlertView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PKCustomAlertView: f1649d0bd7e14d6be253ce31bcb743b862559ae6
+
+COCOAPODS: 0.39.0

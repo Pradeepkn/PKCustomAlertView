@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "PKCustomAlertView"
   s.version          = "0.1.0"
-  s.summary          = "A short description of PKCustomAlertView."
+  s.summary          = "PKCustomAlertView with custom alert view and table alert view."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,13 +17,13 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
-                       DESC
-
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/PKCustomAlertView"
+                       PKCustomAlertView is a custom alert view. With the help of it user can customise according to there needs by modifying view model properties.
+                        DESC
+  s.homepage         = "https://github.com/Pradeepkn/PKCustomAlertView"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "pradeep" => "pradeep.nagendra@tarento.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/PKCustomAlertView.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/Pradeepkn/PKCustomAlertView.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'

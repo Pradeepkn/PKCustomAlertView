@@ -1,0 +1,6 @@
+framework module PKCustomAlertView {
+  umbrella header "PKCustomAlertView-umbrella.h"
+
+  export *
+  module * { export * }
+}
