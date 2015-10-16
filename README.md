@@ -19,6 +19,7 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "PKCustomAlertView"
 ```
+![alt tag](http://i.stack.imgur.com/O9NId.jpg)
 
 ## Author
 
