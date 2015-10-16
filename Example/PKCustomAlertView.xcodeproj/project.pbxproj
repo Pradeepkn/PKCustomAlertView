@@ -23,8 +23,6 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		E9BFE4E31BD19A0800E9E630 /* PKAlertModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BFE4E01BD19A0800E9E630 /* PKAlertModel.m */; settings = {ASSET_TAGS = (); }; };
-		E9BFE4E41BD19A0800E9E630 /* PKAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BFE4E21BD19A0800E9E630 /* PKAlertViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,10 +65,8 @@
 		CFF88983741164305390DBBF /* Pods-PKCustomAlertView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PKCustomAlertView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PKCustomAlertView_Example/Pods-PKCustomAlertView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DDA78F39A84EEE827BBF14B5 /* Pods_PKCustomAlertView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PKCustomAlertView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7126A2C4E8ACB5C70EC8A14 /* PKCustomAlertView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PKCustomAlertView.podspec; path = ../PKCustomAlertView.podspec; sourceTree = "<group>"; };
-		E9BFE4DF1BD19A0800E9E630 /* PKAlertModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKAlertModel.h; sourceTree = "<group>"; };
-		E9BFE4E01BD19A0800E9E630 /* PKAlertModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKAlertModel.m; sourceTree = "<group>"; };
-		E9BFE4E11BD19A0800E9E630 /* PKAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKAlertViewController.h; sourceTree = "<group>"; };
-		E9BFE4E21BD19A0800E9E630 /* PKAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKAlertViewController.m; sourceTree = "<group>"; };
+		E9BFE4F31BD1AEF900E9E630 /* PKAlertModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKAlertModel.h; sourceTree = "<group>"; };
+		E9BFE4F41BD1AEF900E9E630 /* PKAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKAlertViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,10 +137,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* PKViewController.h */,
 				6003F5A6195388D20070C39A /* PKViewController.m */,
-				E9BFE4DF1BD19A0800E9E630 /* PKAlertModel.h */,
-				E9BFE4E01BD19A0800E9E630 /* PKAlertModel.m */,
-				E9BFE4E11BD19A0800E9E630 /* PKAlertViewController.h */,
-				E9BFE4E21BD19A0800E9E630 /* PKAlertViewController.m */,
+				E9BFE4F31BD1AEF900E9E630 /* PKAlertModel.h */,
+				E9BFE4F41BD1AEF900E9E630 /* PKAlertViewController.h */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -401,8 +395,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* PKAppDelegate.m in Sources */,
-				E9BFE4E41BD19A0800E9E630 /* PKAlertViewController.m in Sources */,
-				E9BFE4E31BD19A0800E9E630 /* PKAlertModel.m in Sources */,
 				6003F5A7195388D20070C39A /* PKViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
