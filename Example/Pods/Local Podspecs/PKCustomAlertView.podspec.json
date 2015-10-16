@@ -1,15 +1,15 @@
 {
   "name": "PKCustomAlertView",
   "version": "0.1.0",
-  "summary": "A short description of PKCustomAlertView.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/PKCustomAlertView",
+  "summary": "PKCustomAlertView with custom alert view and table alert view.",
+  "description": "PKCustomAlertView is a custom alert view. With the help of it user can customise according to there needs by modifying view model properties.",
+  "homepage": "https://github.com/Pradeepkn/PKCustomAlertView",
   "license": "MIT",
   "authors": {
     "pradeep": "pradeep.nagendra@tarento.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/PKCustomAlertView.git",
+    "git": "https://github.com/Pradeepkn/PKCustomAlertView.git",
     "tag": "0.1.0"
   },
   "platforms": {

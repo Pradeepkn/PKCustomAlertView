@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PKCustomAlertView: f1649d0bd7e14d6be253ce31bcb743b862559ae6
+  PKCustomAlertView: 5c0f0b69b9dcca7cd4be00a0e48f207cb3a70e7e
 
 COCOAPODS: 0.39.0

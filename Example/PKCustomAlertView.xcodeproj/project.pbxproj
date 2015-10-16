@@ -23,6 +23,8 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		E9BFE4E31BD19A0800E9E630 /* PKAlertModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BFE4E01BD19A0800E9E630 /* PKAlertModel.m */; settings = {ASSET_TAGS = (); }; };
+		E9BFE4E41BD19A0800E9E630 /* PKAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BFE4E21BD19A0800E9E630 /* PKAlertViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +42,7 @@
 		1D6035AEE552B9B047C322AE /* Pods-PKCustomAlertView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PKCustomAlertView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-PKCustomAlertView_Example/Pods-PKCustomAlertView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		287E07B937E55259EB636FA6 /* Pods-PKCustomAlertView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PKCustomAlertView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PKCustomAlertView_Tests/Pods-PKCustomAlertView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		32A1A9BF7486279A90118455 /* Pods-PKCustomAlertView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PKCustomAlertView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PKCustomAlertView_Tests/Pods-PKCustomAlertView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* PKCustomAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = PKCustomAlertView.app; path = PKCustomAlertView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* PKCustomAlertView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PKCustomAlertView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -53,7 +55,7 @@
 		6003F5A5195388D20070C39A /* PKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* PKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = PKCustomAlertView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AE195388D20070C39A /* PKCustomAlertView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PKCustomAlertView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -65,6 +67,10 @@
 		CFF88983741164305390DBBF /* Pods-PKCustomAlertView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PKCustomAlertView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PKCustomAlertView_Example/Pods-PKCustomAlertView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DDA78F39A84EEE827BBF14B5 /* Pods_PKCustomAlertView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PKCustomAlertView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7126A2C4E8ACB5C70EC8A14 /* PKCustomAlertView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PKCustomAlertView.podspec; path = ../PKCustomAlertView.podspec; sourceTree = "<group>"; };
+		E9BFE4DF1BD19A0800E9E630 /* PKAlertModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKAlertModel.h; sourceTree = "<group>"; };
+		E9BFE4E01BD19A0800E9E630 /* PKAlertModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKAlertModel.m; sourceTree = "<group>"; };
+		E9BFE4E11BD19A0800E9E630 /* PKAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKAlertViewController.h; sourceTree = "<group>"; };
+		E9BFE4E21BD19A0800E9E630 /* PKAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKAlertViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,8 +114,8 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* PKCustomAlertView.app */,
-				6003F5AE195388D20070C39A /* Tests.xctest */,
+				6003F58A195388D20070C39A /* PKCustomAlertView_Example.app */,
+				6003F5AE195388D20070C39A /* PKCustomAlertView_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -135,6 +141,10 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* PKViewController.h */,
 				6003F5A6195388D20070C39A /* PKViewController.m */,
+				E9BFE4DF1BD19A0800E9E630 /* PKAlertModel.h */,
+				E9BFE4E01BD19A0800E9E630 /* PKAlertModel.m */,
+				E9BFE4E11BD19A0800E9E630 /* PKAlertViewController.h */,
+				E9BFE4E21BD19A0800E9E630 /* PKAlertViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -213,7 +223,7 @@
 			);
 			name = PKCustomAlertView_Example;
 			productName = PKCustomAlertView;
-			productReference = 6003F58A195388D20070C39A /* PKCustomAlertView.app */;
+			productReference = 6003F58A195388D20070C39A /* PKCustomAlertView_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6003F5AD195388D20070C39A /* PKCustomAlertView_Tests */ = {
@@ -234,7 +244,7 @@
 			);
 			name = PKCustomAlertView_Tests;
 			productName = PKCustomAlertViewTests;
-			productReference = 6003F5AE195388D20070C39A /* Tests.xctest */;
+			productReference = 6003F5AE195388D20070C39A /* PKCustomAlertView_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -391,6 +401,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* PKAppDelegate.m in Sources */,
+				E9BFE4E41BD19A0800E9E630 /* PKAlertViewController.m in Sources */,
+				E9BFE4E31BD19A0800E9E630 /* PKAlertModel.m in Sources */,
 				6003F5A7195388D20070C39A /* PKViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
