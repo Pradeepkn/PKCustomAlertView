@@ -19,6 +19,9 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "PKCustomAlertView"
 ```
+```ruby
+#import <PKCustomAlertView/PKAlertViewController.h>
+```
 ## Custom Alert sample code
 ```ruby
     PKAlertModel *alertModel = [[PKAlertModel alloc] init];
