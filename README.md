@@ -46,6 +46,9 @@ pod "PKCustomAlertView"
         ;
     }];
 ```
+
+PKCustomAlertView can be customised according to user needs. User can chanage color, font, margins, Butttons etc., by modifying PKAlertModel properties.
+
 ![alt tag](http://s28.postimg.org/xyf6sev7h/Simulator_Screen_Shot_Oct_16_2015_2_51_45_PM.png)
 ![alt tag](http://s17.postimg.org/6kb17s65b/Simulator_Screen_Shot_Oct_16_2015_3_12_19_PM.png)
 ![alt tag](http://s17.postimg.org/aj88qlusf/Simulator_Screen_Shot_Oct_16_2015_3_13_40_PM.png)
