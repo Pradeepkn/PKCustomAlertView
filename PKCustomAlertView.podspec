@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "PKCustomAlertView"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "PKCustomAlertView with custom alert view and table alert view."
 
 # This description is used to generate tags and improve search results.
