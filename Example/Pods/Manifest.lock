@@ -1,5 +1,5 @@
 PODS:
-  - PKCustomAlertView (0.1.0)
+  - PKCustomAlertView (0.1.1)
 
 DEPENDENCIES:
   - PKCustomAlertView (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PKCustomAlertView: 5c0f0b69b9dcca7cd4be00a0e48f207cb3a70e7e
+  PKCustomAlertView: ac9623f5a70982ed06a1279f1dc9b41444f315b2
 
 COCOAPODS: 0.39.0
