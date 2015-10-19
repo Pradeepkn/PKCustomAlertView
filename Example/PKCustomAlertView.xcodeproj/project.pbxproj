@@ -65,8 +65,6 @@
 		CFF88983741164305390DBBF /* Pods-PKCustomAlertView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PKCustomAlertView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PKCustomAlertView_Example/Pods-PKCustomAlertView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DDA78F39A84EEE827BBF14B5 /* Pods_PKCustomAlertView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PKCustomAlertView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7126A2C4E8ACB5C70EC8A14 /* PKCustomAlertView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PKCustomAlertView.podspec; path = ../PKCustomAlertView.podspec; sourceTree = "<group>"; };
-		E9BFE4F31BD1AEF900E9E630 /* PKAlertModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKAlertModel.h; sourceTree = "<group>"; };
-		E9BFE4F41BD1AEF900E9E630 /* PKAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKAlertViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,8 +135,6 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* PKViewController.h */,
 				6003F5A6195388D20070C39A /* PKViewController.m */,
-				E9BFE4F31BD1AEF900E9E630 /* PKAlertModel.h */,
-				E9BFE4F41BD1AEF900E9E630 /* PKAlertViewController.h */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);

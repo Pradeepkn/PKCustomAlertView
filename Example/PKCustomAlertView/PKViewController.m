@@ -22,8 +22,8 @@
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
-//    [self showAlertView];
-    [self showTableAlertView];
+    [self showAlertView];
+//    [self showTableAlertView];
 }
 
 - (void)showAlertView {
