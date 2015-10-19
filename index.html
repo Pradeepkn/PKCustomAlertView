@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>PKCustomalertview by Pradeepkn</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">PKCustomalertview</h1>
+      <h2 class="project-tagline">PKCustomAlertView is a custom alert view. With the help of it user can customise according to there needs by modifying view model properties.</h2>
+      <a href="https://github.com/Pradeepkn/PKCustomAlertView" class="btn">View on GitHub</a>
+      <a href="https://github.com/Pradeepkn/PKCustomAlertView/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/Pradeepkn/PKCustomAlertView/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="pkcustomalertview" class="anchor" href="#pkcustomalertview" aria-hidden="true"><span class="octicon octicon-link"></span></a>PKCustomAlertView</h1>
+
+<p><a href="https://travis-ci.org/pradeep/PKCustomAlertView"><img src="http://img.shields.io/travis/pradeep/PKCustomAlertView.svg?style=flat" alt="CI Status"></a>
+<a href="http://cocoapods.org/pods/PKCustomAlertView"><img src="https://img.shields.io/cocoapods/v/PKCustomAlertView.svg?style=flat" alt="Version"></a>
+<a href="http://cocoapods.org/pods/PKCustomAlertView"><img src="https://img.shields.io/cocoapods/l/PKCustomAlertView.svg?style=flat" alt="License"></a>
+<a href="http://cocoapods.org/pods/PKCustomAlertView"><img src="https://img.shields.io/cocoapods/p/PKCustomAlertView.svg?style=flat" alt="Platform"></a></p>
+
+<h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<p>To run the example project, clone the repo, and run <code>pod install</code> from the Example directory first.</p>
+
+<h2>
+<a id="requirements" class="anchor" href="#requirements" aria-hidden="true"><span class="octicon octicon-link"></span></a>Requirements</h2>
+
+<h2>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<p>PKCustomAlertView is available through <a href="http://cocoapods.org">CocoaPods</a>. To install
+it, simply add the following line to your Podfile:</p>
+
+<div class="highlight highlight-source-ruby"><pre>pod <span class="pl-s"><span class="pl-pds">"</span>PKCustomAlertView<span class="pl-pds">"</span></span></pre></div>
+
+<div class="highlight highlight-source-ruby"><pre><span class="pl-c">#import &lt;PKCustomAlertView/PKAlertViewController.h&gt;</span></pre></div>
+
+<h2>
+<a id="custom-alert-sample-code" class="anchor" href="#custom-alert-sample-code" aria-hidden="true"><span class="octicon octicon-link"></span></a>Custom Alert sample code</h2>
+
+<div class="highlight highlight-source-ruby"><pre>    <span class="pl-c1">PKAlertModel</span> <span class="pl-k">*</span>alertModel <span class="pl-k">=</span> [[<span class="pl-c1">PKAlertModel</span> alloc] init];
+    alertModel.alertTitle <span class="pl-k">=</span> @<span class="pl-s"><span class="pl-pds">"</span>Title<span class="pl-pds">"</span></span>;
+    alertModel.alertMessageBody <span class="pl-k">=</span> @<span class="pl-s"><span class="pl-pds">"</span>Displaying custom alert!<span class="pl-pds">"</span></span>;
+    alertModel.kAlertMarginOffSet <span class="pl-k">=</span> <span class="pl-c1">20</span>.0f;
+    alertModel.buttonsArray <span class="pl-k">=</span> [<span class="pl-c1">NSMutableArray</span> <span class="pl-c1">arrayWithObjects:</span>@<span class="pl-s"><span class="pl-pds">"</span>Cancel<span class="pl-pds">"</span></span>, @<span class="pl-s"><span class="pl-pds">"</span>OK<span class="pl-pds">"</span></span>, <span class="pl-c1">nil</span>];
+    <span class="pl-sr"><span class="pl-pds">//</span></span>    alertModel.alertType <span class="pl-k">=</span> kPKSuggestion;
+    [[<span class="pl-c1">PKAlertViewController</span> sharedInstance] <span class="pl-c1">displayAlertViewOnView:</span><span class="pl-v">self</span>.view <span class="pl-c1">withModel:</span>alertModel <span class="pl-c1">andCallBack:</span><span class="pl-k">^</span>(id sender) {
+        ;
+    }];</pre></div>
+
+<h2>
+<a id="custom-table-alert-sample-code" class="anchor" href="#custom-table-alert-sample-code" aria-hidden="true"><span class="octicon octicon-link"></span></a>Custom Table Alert sample code</h2>
+
+<div class="highlight highlight-source-ruby"><pre>    <span class="pl-c1">PKAlertModel</span> <span class="pl-k">*</span>alertModel <span class="pl-k">=</span> [[<span class="pl-c1">PKAlertModel</span> alloc] init];
+    alertModel.alertTableEntries <span class="pl-k">=</span> [<span class="pl-c1">NSMutableArray</span> <span class="pl-c1">arrayWithObjects:</span>@<span class="pl-s"><span class="pl-pds">"</span>iOS<span class="pl-pds">"</span></span>,@<span class="pl-s"><span class="pl-pds">"</span>Android<span class="pl-pds">"</span></span>, @<span class="pl-s"><span class="pl-pds">"</span>Blackberry<span class="pl-pds">"</span></span>, @<span class="pl-s"><span class="pl-pds">"</span>Windows<span class="pl-pds">"</span></span>, <span class="pl-c1">nil</span>];
+    alertModel.alertTableImages <span class="pl-k">=</span> [<span class="pl-c1">NSMutableArray</span> <span class="pl-c1">arrayWithObjects:</span>[<span class="pl-c1">UIImage</span> <span class="pl-c1">imageNamed:</span>@<span class="pl-s"><span class="pl-pds">"</span>ios<span class="pl-pds">"</span></span>], [<span class="pl-c1">UIImage</span> <span class="pl-c1">imageNamed:</span>@<span class="pl-s"><span class="pl-pds">"</span>android<span class="pl-pds">"</span></span>],     [<span class="pl-c1">UIImage</span> <span class="pl-c1">imageNamed:</span>@<span class="pl-s"><span class="pl-pds">"</span>blackberry<span class="pl-pds">"</span></span>],[<span class="pl-c1">UIImage</span> <span class="pl-c1">imageNamed:</span>@<span class="pl-s"><span class="pl-pds">"</span>windows<span class="pl-pds">"</span></span>], <span class="pl-c1">nil</span>];
+    alertModel.shouldDisplayPreviousSelectedIndex <span class="pl-k">=</span> <span class="pl-c1">YES</span>;
+    alertModel.kAlertPreviousSelectedIndex <span class="pl-k">=</span> <span class="pl-c1">0</span>;
+    alertModel.alertCellAccesoryImage <span class="pl-k">=</span> [<span class="pl-c1">UIImage</span> <span class="pl-c1">imageNamed:</span>@<span class="pl-s"><span class="pl-pds">"</span>tick<span class="pl-pds">"</span></span>];
+    [[<span class="pl-c1">PKAlertViewController</span> sharedInstance] <span class="pl-c1">showAlertTableViewOn:</span><span class="pl-v">self</span>.view <span class="pl-c1">withModel:</span>alertModel <span class="pl-c1">onCompletion:</span><span class="pl-k">^</span>(id sender) {
+        ;
+    }];</pre></div>
+
+<p>PKCustomAlertView can be customised according to user needs. User can chanage color, font, margins, Butttons etc., by modifying PKAlertModel properties.</p>
+
+<h2>
+<a id="author" class="anchor" href="#author" aria-hidden="true"><span class="octicon octicon-link"></span></a>Author</h2>
+
+<p>pradeep, <a href="mailto:pradeep.nagendra@tarento.com">pradeep.nagendra@tarento.com</a></p>
+
+<h2>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span class="octicon octicon-link"></span></a>License</h2>
+
+<p>PKCustomAlertView is available under the MIT license. See the LICENSE file for more info.</p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/Pradeepkn/PKCustomAlertView">PKCustomalertview</a> is maintained by <a href="https://github.com/Pradeepkn">Pradeepkn</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
